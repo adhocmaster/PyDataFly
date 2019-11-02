@@ -1,0 +1,8 @@
+storage:
+  class: FileStorageController
+  directory: F:/myProjects/tfKeras/UCSC/Opensource/WikiCrawler/output
+
+test: This is nothing
+
+test2:
+  test22: this is something

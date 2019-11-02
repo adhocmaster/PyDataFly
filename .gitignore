@@ -1,6 +1,7 @@
-data/
-lib/.ipynb_checkpoints/__init__.py-checkpoint.ipynb
 # Byte-compiled / optimized / DLL files
+output/
+.vscode/
+apicache-py3/
 __pycache__/
 *.py[cod]
 *$py.class
@@ -22,8 +23,6 @@ parts/
 sdist/
 var/
 wheels/
-pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -42,7 +41,6 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
-.nox/
 .coverage
 .coverage.*
 .cache
@@ -77,19 +75,8 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# IPython
-profile_default/
-ipython_config.py
-
 # pyenv
 .python-version
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don’t work, or not
-#   install all needed dependencies.
-#Pipfile.lock
 
 # celery beat schedule file
 celerybeat-schedule
@@ -118,26 +105,4 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
-estimator/cached/BigFFN-model-train.h5
-estimator/cached/BigFFN-model-test.h5
-estimator/cached/2DCNN-MixedKernel-model-train.h5
-estimator/cached/2DCNN-MixedKernel-model-test.h5
-estimator/cached/1DCNN-Encoder-Decoder-Estimator-model-test.h5
-estimator/cached/1DCNN-ColumnKernel4-Global-Average-model-train.h5
-estimator/cached/1DCNN-ColumnKernel-UpSampling-model-train.h5
-estimator/cached/1DCNN-ColumnKernel-UpSampling-model-test.h5
-estimator/cached/1DCNN-ColumnKernel-Tanh-model-test.h5
-estimator/cached/1DCNN-ColumnKernel-Max-Pool-UpSampling2-model-train.h5
-estimator/cached/1DCNN-ColumnKernel-Max-Pool-UpSampling2-model-test.h5
-estimator/cached/1DCNN-ColumnKernel-Avg-Pool-UpSampling-model-train.h5
-estimator/cached/1DCNN-ColumnKernel-Avg-Pool-UpSampling-model-test.h5
-estimator/cached/1DCNN-ColumnKerne-Global-Average-model-train.h5
-estimator/cached/1DCNN-ColumnKerne-Global-Average-model-test.h5
-estimator/cached/1DCNN-ColumnKernel-Tanh-model-train.h5
-estimator/cached/1DCNN-ColumnKernel4-Global-Average-model-test.h5
-estimator/cached/1DCNN-Encoder-Decoder-Estimator-model-train.h5
+testLibraryImports.ipynb
